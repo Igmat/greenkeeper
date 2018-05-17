@@ -162,7 +162,7 @@ module.exports = async function ({ repositoryId, closes = [] }) {
           readme,
           ext,
           badgeUrl,
-          'https://greenkeeper.io/',
+          `https://${env.GK_HOST}/`,
           'Greenkeeper badge'
         )
       }
